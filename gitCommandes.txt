@@ -1,0 +1,29 @@
+Git : Technologie de gestion de projet 
+Git Hup : Platforme  web ppor partager du code en utilisant Git
+
+
+
+
+
+
+les commandes :
+- git init : supporter git 
+- git config --global user.name "Hadrami" , git config --global user.email "hadramielbey@yahoo.com" : definer l'utilisateur 
+- git config --global --list
+- git remote add origin (linkrepostory) : connecter avec repostory globale 
+- git remote : montrer mon repository locale
+- git remote rm origne : deconnecter de repository globale
+- git add . : monter les modiffication sur le repostory locale
+- git commit -m "description" : enregitrer les modif 
+- git log : voire les modifications
+- git push origin master (m ybranche) : monter les modification sur le repostory globale
+- git pull origin master : maitre a jour le projet
+- git clone linkproject : telecharger un projet de repostory globale vers le locale 
+- git rm -r --cached fichier|dossier : supprimer un dossier ou un fichier
+- git reset --hard : annuler des modifs avant de faire commit
+- git branch : voire mon branch
+- git checkout -b nouvBranche : creer un nouvBranche
+- git diff : affiche les modiffications sur un fichier avant de faire add
+- git checkout nouvBranche: deplacer vers la branche nouvBranche
+- git reset xxxxxxxxxxx : retourne a la commite de code xxxxxxxxxxx 
+- git reset HEAD ,HEAD^,HEAD^^ :annuler dernier,avant dernier,avant avant der comite
